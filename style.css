@@ -30,6 +30,7 @@ html{
 
 
 .foamImg{
+  display: block;
   height:100px;
   width:auto;
   margin-top: 100px;
@@ -41,6 +42,18 @@ html{
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+.nerfImg{
+  display: block;
+  height: 100px;
+  width: auto;
+  -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-left: 575px;
+      padding-left: 100px;
 }
 
 /*.click{

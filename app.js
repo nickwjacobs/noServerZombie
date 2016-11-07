@@ -12,5 +12,10 @@ angular.module('zombie', ['ui.router'])
           templateUrl:'./weapons/foam/sword.html',
           controller: 'swordCtrl',
           url:'/foam'
+        })
+        .state('nerf',{
+          templateUrl:'.weapons/nerf/nerf.html',
+          controller:'nerfCtrl',
+          url:'/nerf'
         });
       });
