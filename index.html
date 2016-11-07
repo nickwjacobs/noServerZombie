@@ -1,36 +1,34 @@
 <!DOCTYPE html>
-<html ng-app="calander">
+<html ng-app="zombie">
 
 <head>
     <link rel="stylesheet" href="reset.css" media="screen" title="no title">
-      <link rel="stylesheet" type="text/css" href="style.css" <title>
-      <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" <title>
+    <title></title>
 
-  </head>
+</head>
 
-<body ng-controller="mainCtrl">
-  <div id="header">
-      Zombie-Slaying-101
+<body>
 
-      <div class="biohazard">
-        <img src="https://unoda-web.s3-accelerate.amazonaws.com/wp-content/uploads/assets/HomePage/ODAPublications/ODAUpdate/2007/July/img/universal_warning.gif">
-      </div>
-  </div>
-  <div class="click">
-  <button ui-sref='weapons'>Click Here to Continue!</button>
-  </div>
 
-<ui-view></ui-view>
+    <ui-view></ui-view>
 
 
 
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
-      <script src ="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
-      <script src="app.js"></script>
-      <script src="controller.js"></script>
-      <script src=".weapons.js/weaponsCtrl.js"></script>
-      <script src="service.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+    <script src="./weapons/foam/swordCtrl.js"></script>
+    <script src='./weapons/nerf/nerfCtrl.js'></script>
+    
 
-  </body>
+
+
+
+
+
+</body>
 
 </html>
